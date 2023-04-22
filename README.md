@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# React Texniki Tapşırıq
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**1. FIN üzrə müştəri axtarışı**\
+    &emsp;**1.1 Müştəri mövcud deyil**\
+    &emsp;&emsp;    - Yeni müştəri qeydiyyatı imkanı\
+    &emsp;&emsp;        - Faktiki ünvan \
+    &emsp;&emsp;        - Şəxsiyyət vəsiqəsi məlumatları \
+    &emsp;&emsp;            - FİN\
+    &emsp;&emsp;            - Seriya və kod\
+    &emsp;&emsp;            - Ad Soyad Ata adı\
+    &emsp;&emsp;            - Qeydiyyat ünvanı\
+    &emsp;&emsp;            - Doğum tarixi\
+    &emsp;&emsp;        - Telefon (mobil + ev)\
+    &emsp;**1.2 Müştəri mövcuddur** \
+    &emsp;&emsp;    - Müştəri məlumatları əks olunması\
+    &emsp;&emsp;    - Yeni kredit sifarişi yarat button-u\
+**2. Yeni kredit müraciəti**\
+    &emsp;**2.1 Birinci mərhələ - Şəxs haqqında məlumat**\
+    &emsp;&emsp;        - Fəaliyyət sektoru\
+   &emsp;&emsp;         - Aylıq gəliri\
+    &emsp;&emsp;        - İş təcrübəsi (il)\
+    &emsp;&emsp;        - İş təcrübəsi (ay)\
+    &emsp;&emsp;        - Region\
+   &emsp;&emsp;         - Biznes ünvanı\
+    &emsp;**2.2 İkinci mərhələ - Kredit barədə məlumat**\
+    &emsp;&emsp;        - Valyuta\
+    &emsp;&emsp;        - Biznes kreditin məqsədi\
+   &emsp;&emsp;         - Məbləğ\
+   &emsp;&emsp;         - Müddət\
+    &emsp;&emsp;        - Faiz\
+   &emsp; **2.3 Üçüncü mərhələ - Zaminin əlavəsi** \
+    &emsp;&emsp;        - 1-ci maddədəki Eyni müştəri məntiqi ilə axtarış\
+    &emsp;&emsp;        - Bir neçə zamin əlavəsi funksionalı\
+    &emsp;&emsp;        - Əlavə olunan zaminlərin siyahısı cədvəli\
+    &emsp; **2.4 Dördüncü mərhələ - Kredit Kalkulyatoru**\
+    &emsp;&emsp;    - 2.2 maddəsindəki mərhələdəki müddətə, məbləğə, faizə uyğun ödəniş cədvəlinin generasiyası \
+    &emsp;&emsp;    - *Cədvəlin formulasın elə yazmaq lazımdır ki, hər ay (+-) eyni qədər məbləğ ödənsin amma faiz məbləği çoxdan aza doğru dəyişsin*\
+    &emsp; **2.5 Beşinci mərhələ - Xülasə**\
+    &emsp;&emsp;    - Əlavə olunmuş məlumatların xülasəsi\
+    &emsp;&emsp;    - Kreditin təsdiqi və ya imtinası üçün button-lazımdır\
+    &emsp;&emsp;    - İmtina halında səbəb qeyd olunsun\
 
-## Available Scripts
+## Nə tələb olunur
+    
+Aşağıdakı mərhələli prosesi uyğun validasiyalar tətbiq olunmaqla yazmaq. 
+Hər mərhələnin submit-ində cari form-dakı məlumatlar save olunmalı və store update olunmalı.
+Tapşırığı fork edib həll etdikdən sonra git şəxsi hesaba push etmək.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## İstifadə olunacaq stack
+- React.js
+- Typescript
+- Redux toolkit
+- Material UI
+- React-router
+- react hook form
+- imask
